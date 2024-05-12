@@ -1,0 +1,139 @@
+@import url(reset.css);
+@import url(font.css);
+
+.container {
+   width: 100%;
+   /* max-width: 1440px; */
+   height: 100vh;
+   max-height: 2198px;
+   background-color: #F7F7F7;
+}
+
+header {
+   width: 100%;
+   height: 500px;
+   background:url(../images/IMAGE.png) no-repeat center center / cover;
+   /* border: 1px solid red; */
+}
+
+nav {
+   width: 100%;
+   height: 74px;
+}
+
+nav .site {
+   font-size: 26px;
+   font-family: 'Lora Regular';
+   color: #fff;
+   padding: 20px 0 28px 250px; 
+   float: left;
+}
+
+nav ul {
+   font-size: 12px;
+   font-family: 'Oxygen Regular';
+   color: #fff;
+   text-transform: uppercase;
+   padding: 27px 0 28px 833px; 
+
+}
+
+nav ul > a{
+   margin-left: 40px;
+}
+
+nav ul > a:hover {
+   color: #cccccc;
+}
+
+.header_center {
+   width: 940px;
+   height: 159px;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   position: relative;
+   top: 110px;
+}
+
+.header_center > h1 {
+   font-size: 50px;
+   font-family: 'Lora Regular';
+   color: #fff;
+}
+
+.header_center > p {
+   color: rgba(255, 255, 255, 0.63);
+   font-size: 16px;
+   font-family: 'Oxygen Regular';
+   margin: 20px 0 0 0;
+}
+
+.header_center button {
+   width: 167px;
+   height: 44px;
+   margin: 18px 0 0 0;
+   color: #fff;
+   background-color: #DD783F;
+   font-size: 13px;
+   font-family: 'Oxygen Regular';
+}
+
+.header_center button:hover {
+   color: #DD783F;
+   background-color: #fff;
+}
+
+main {
+   height: 1320px;
+   background-color: #F7F7F7;
+}
+
+.main_top {
+   width: 100%;
+   height: 65px;
+   background-color: #fff;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.main_top li{
+   width: 139px;
+   height: 46px;
+   font-size: 14px;
+   font-family: 'Lora Regular';
+   color: #768088;
+   margin-left: 21px;
+   list-style: none;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.main_top li:hover {
+   background-color: #cccccc;
+   color: #fff;
+   border-radius: 8px;
+}
+
+.main_center_top {
+   width: 940px;
+   height: 414px;
+   border: 1px solid red;
+   margin-left: 250px;
+   display: flex;
+   justify-content: center;
+}
+
+.main_center_top h2 {
+   font-size: 20px;
+   font-family: 'Oxygen Regular';
+   color: #2E2E2E;
+   margin-top: 60px;
+   width: 188px;
+   height: 44px;
+   border-bottom: 1px solid #DEDEDE;
+   text-align: center;
+
+}
